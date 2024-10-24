@@ -121,7 +121,7 @@ onMounted(calculateResult);
 <template>
   <div class="container">
     <header class="p-5 mb-4 mt-4 text-center">
-      <h1>Conversão de moedas:</h1>
+      <h1>Conversor de moedas:</h1>
     </header>
     <Formulario
         :trocar-filtro="(event) => { estado.filtro = event.target.value; calculateResult(); }"
